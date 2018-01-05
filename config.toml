@@ -1,0 +1,27 @@
+baseURL = "http://tengkyu.github.io"
+DefaultContentLanguage = "en"
+title = "~Random"
+theme = "bosku"
+metaDataFormat = "yaml"
+googleAnalytics = ""
+
+[Params]
+  subtitle = "~Random Post"
+  logo = "img/Logo.png"
+  favicon = "img/favicon.ico"
+  dateFormat = "2010-10-01"
+  commit = false
+  rss = false
+
+[Author]
+  name = "Am In"
+  github = "tengkyu"
+  twitter = "tengkyu"
+
+[[menu.main]]
+  name = "Try out!"
+  url = "diy/"
+
+[[menu.main]]
+  name = "Contribute"
+  url = "https://github.com/tengkyu/bos"
